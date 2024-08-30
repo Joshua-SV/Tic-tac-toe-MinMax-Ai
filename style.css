@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+.row {
+    /* Optional: If you want the rows to be centered horizontally */
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    font-size: 40px;
+    line-height: 80px; /* Vertically center the text */
+    vertical-align: middle;
+    margin: 3px;
+}
+
+button {
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+}
